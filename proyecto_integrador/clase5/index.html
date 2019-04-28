@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="js/lb/css/lightbox.css">
+	<style type="text/css">a { text-decoration: none }</style>
+</head>
+<body>
+	<h1 id="contenedorMensaje"></h1>
+	<form id="agregarUsuarioForm" style="display: none">
+		<input type="text" name="nombre" id="nombre" placeholder="Nombre">
+		<input type="text" name="apellido" id="apellido" placeholder="Apellido">
+		<input type="number" name="edad" id="edad" placeholder="Edad" >
+		<button type="submit" id="agregarUsuario">Agregar</button>
+	</form>
+	<table id="tablaDeUsuarios"></table>
+
+	<div>
+		<a href="imagenes/empleado01-grande.png" data-lightbox="empleados">
+			<img src="imagenes/empleado01.png">
+		</a>
+		<a href="imagenes/empleado02-grande.png" data-lightbox="empleados">
+			<img src="imagenes/empleado02.png">
+		</a>
+		<a href="imagenes/empleado03-grande.png" data-lightbox="empleados">
+			<img src="imagenes/empleado03.png">
+		</a>
+		<a href="imagenes/empleado04-grande.png" data-lightbox="empleados">
+			<img src="imagenes/empleado04.png">
+		</a>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+	<script type="text/javascript" src="js/lb/js/lightbox.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
