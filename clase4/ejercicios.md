@@ -6,7 +6,7 @@
 - Crear una función que reciba un string y devuelva la palabra más larga del string.
 - Crear una función que reciba un array de nombres de frutas y devuelva un objeto que tenga como propiedad la posición del array y como valor el nombre de la fruta (el objeto va a tener tantas propiedades como elementos el array)
 
-# EJERCICIOS DE SCOPE
+# EJERCICIOS SCOPE
 
 ```js
 var name = 'Pedro Pomez';
